@@ -75,7 +75,7 @@ The maze
 ││╵╭┼╯╰╮├╯
 ╵╰─┴┴──╯╰╴
 ```
-Where lines represent routes and no line means a wall, the number square would be:
+Where lines represent routes and no line means a wall, the number squares would be:
 
 ```
 11 10 12 09 08 10 10 14 09 12
