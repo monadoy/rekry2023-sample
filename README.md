@@ -10,7 +10,7 @@ They are only examples, you can also do your own solution from the ground up!
 
 ![example game](maze.gif)
 
-The goal of the game is to solve mazes as fast as possible without any prior knowledge of the maze.
+The goal of the game is to solve mazes with the fewest moves possible.
 
 you will only see the walls around you and you have to figure out the maze by moving your way trough it.
 
