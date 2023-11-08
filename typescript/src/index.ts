@@ -6,8 +6,8 @@ import { Action, GameInstance, Message, NoWayOutState, Rotation } from './types.
 import { message } from './utils/message.js'
 import { getWalls } from './utils/walls.js'
 
-const frontend_base = 'rekry2023.do.flatm.app'
-const backend_base = 'rekry2023.do.flatm.app/backend'
+const frontend_base = 'goldrush.monad.fi'
+const backend_base = 'goldrush.monad.fi/backend'
 
 // Change this to your own implementation
 const generateAction = (gameState: NoWayOutState): Action => {
@@ -52,7 +52,7 @@ const createGame = async (levelId: string, token: string) => {
 }
 
 const main = async () => {
-  const token = process.env['TOKEN'] ?? ''
+  const token = process.env['PLAYER_TOKEN'] ?? ''
   const levelId = process.env['LEVEL_ID'] ?? ''
 
   const game = await createGame(levelId, token)
