@@ -1,3 +1,7 @@
+> This code puzzle is a part of Monad’s summer internship application process. By successfully completing the code puzzle with sufficient points and a high-quality implementation, you can secure the opportunity to advance in the application process. The deadline for the code puzzle submission is February 14th, 2024.
+
+---
+
 # Instructions
 
 You can find example implementations in different languages in this repository. 
